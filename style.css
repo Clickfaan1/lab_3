@@ -1,0 +1,144 @@
+/* style.css */
+
+/* Общие стили */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+/* Шапка */
+.header {
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
+}
+
+.header__nav {
+  text-align: center;
+}
+
+.nav__list {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.nav__item {
+  margin: 0 10px;
+}
+
+.nav__link {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+/* Боковая панель */
+.sidebar {
+  background-color: #f4f4f4;
+  padding: 20px;
+  margin-right: 20px;
+}
+
+.sidebar__title {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.sidebar__filter,
+.sidebar__label {
+  margin-bottom: 10px;
+}
+
+/* Основное содержимое */
+.main {
+  display: flex;
+}
+
+.content {
+  flex: 3;
+  padding: 20px;
+}
+
+.content__title {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.content__text {
+  line-height: 1.6;
+}
+
+/* Карточки продуктов */
+.card-list {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 15px;
+  width: calc(33.3333% - 20px);
+  text-align: center;
+}
+
+.card__image {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.card__title {
+  font-size: 1.2em;
+  margin-bottom: 5px;
+}
+
+.card__description {
+  margin-bottom: 10px;
+}
+
+.card__price {
+  font-weight: bold;
+  color: #ff6600;
+}
+
+.card__button {
+  padding: 5px 10px;
+  background-color: #ff6600;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.card__button:hover {
+  background-color: #e55d00;
+}
+
+/* Подвал */
+.footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 20px;
+}
+
+.footer__info {
+  margin-top: 10px;
+}
+
+.footer__text {
+  font-size: 0.8em;
+}

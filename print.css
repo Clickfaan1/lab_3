@@ -1,0 +1,6 @@
+/* Стили для печати */
+header,
+footer,
+nav ul li:last-child {
+  display: none;
+}
